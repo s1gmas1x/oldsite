@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+	background-color: #202244;
+	background-attachment: fixed;	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.pageWrapper{
+	position: relative;
+	min-height: 100vh;
+}
+.contentWrapper{
+	padding-bottom: 25rem;
+}
+nav{
+
+
+}
+.buttonBox{
+	border-radius: 10px;
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	margin-top: .5vh;
+	margin-left: 1.5vw;
+	box-sizing: content-box;
+	text-align: center;
+	color: #000000;
+	width: 100px;
+
+}
+.navMenu{
+	border: 3px solid #202244;
+	background-color: #c4e8f4;
+	list-style-type: none;
+	width: 100%;
+
+}
+.menuItemBox{
+
+	margin: 0px;
+	box-sizing: border-box;
+	color: #ffffff;
+	border-right: 1px solid #000000;
+	background-color: #c4e8f4;
+	text-align: center;
+	border-bottom: 3.5px solid #121228;
+
+}
+.myformhidden{
+
+	padding: 5px 15px;
+	background-color: #c4e8f4;
+	color: #121228;
+	border-radius: 10px;
+	opacity: 0;
+	transition-duration: 3000ms;
+	visibility: hidden;
+
+
+}
+.myform{
+
+	padding: 5px 15px;
+	background-color: #c4e8f4;
+	color: #121228;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px 1px #121228;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 3000ms ease-out;
+
+}
+.formbutton{
+	background-color: #c4e8f4;
+	border-top: 1px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	border-right: 1px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-radius: 10px;
+}
+.menuItem{
+	padding: 10px;
+	color: #000000;
+	background-color: #c4e8f4;
+	text-align: center;
+
+
+
+}
+.portImg{
+	object-fit: contain;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.portfolioImage{
+	padding: 20px;
+}
+.logo{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+
+
+}
+.logoContainer{
+
+
+
+}
+.photo{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	background-image: url("");
+	z-index: 10;
+
+}
+.asideBox{
+	margin-top: -2px;
+	margin-left: 10px;
+	border: 2px solid #111111;
+	width:  100%;
+	padding: 4px;
+	background-color: #dddddd;
+}
+.navLink{
+	border-bottom: 2px solid #121228;
+
+
+
+
+}
+aside{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 230px;
+	background-color: #CCCCCC;
+	padding-bottom: 15px;
+	border: 1px solid #222222;
+}
+a{
+
+}
+.resources {
+	color: #c4e8f4;
+}
+.planet{
+	margin-top: -16vh;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	z-index: -5;
+}
+.navText {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	padding-top: 10px;
+	font-weight: 500;
+	color: #000000;
+}
+.bodyBox{
+
+}
+.contentBox{
+	padding: 10px;
+	height: 60vh;
+}
+.logoText{
+	margin-top: 3vh;
+	font-family: 'Orbitron', sans-serif;
+	margin-left: 0vw;
+	font-size: 3.25em;
+	font-weight: 900;
+	text-align: center;
+}
+.smallHeaderText{
+	margin-top: -1vh;
+	font-family: 'Orbitron', sans-serif;
+	margin-left: 2vw;
+	font-size: 1em;
+	font-weight: 100;
+	text-align: center;
+
+}
+.footerBox{
+	background-color: #c4e8f4;
+}
+.footerLink{
+	color: #3b3740;
+}
+.navCorner{
+	border-radius: 0 0 10px ;
+}
+header{
+	background-image: linear-gradient(to right, rgba(18,18,40,1), rgba(18,18,40,1), rgba(18,18,40,.95), rgba(18,18,40,.85));
+	height: 33%;
+	padding-top: 1vh;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #ffffff;
+	border-top: 2px solid #ffffff;
+
+	width: 100vw;
+}
+footer{
+	color:  #121228;
+	position: absolute;
+	bottom: 0;
+	height: 15rem;
+	background-color: #c4e8f4;
+	width: 100%;
+}
+#time{
+	font-weight: 900;
+	padding-top: 8vh;
+	font-size: 1.5em;
+}
+a:link {
+text-decoration: none;
+color: #c4e8f4;
+
+}
+.formbutton:hover {
+	background-color:  #99d7ec;
+	color:  #121228;
+	font-weight: 600;
+}
+.menuItemBox:hover {
+	background-color:  #99d7ec;
+	color:  #121228;
+	font-weight: 900;
+}
+
+.formbutton:active {
+	background-color:  #121228;
+	color:	#c4e8f4;
+}
+.menuItemBox:active{
+	background-color:  #121228;
+	color:	#c4e8f4;
+}
+.navText:active{
+	background-color:  #121228;
+	color:	#c4e8f4;
+}
+button:focus{
+	outline: none;
+}
